@@ -25,6 +25,7 @@
                                   <a t-attf-href="/shop/product/#{product.id}">
                                     <t t-if="product.default_code">[<t t-esc="product.default_code"/>] </t><t t-esc="product.name"/>
                                   </a>
+                                </h5>
                                 <div class="product-price">
                                     <span t-field="product.list_price" t-options='{"widget": "monetary", "display_currency": product.currency_id}'/>
                                 </div>
@@ -58,6 +59,7 @@
                                   <a t-attf-href="/shop/product/#{product.id}">
                                     <t t-if="product.default_code">[<t t-esc="product.default_code"/>] </t><t t-esc="product.name"/>
                                   </a>
+                                </h5>
                                 <div class="product-price">
                                     <span t-field="product.list_price" t-options='{"widget": "monetary", "display_currency": product.currency_id}'/>
                                 </div>
